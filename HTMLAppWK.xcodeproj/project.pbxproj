@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DEFC99761AEAF7C400F958BB /* HTMLApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTMLApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEFC99761AEAF7C400F958BB /* HTMLAppWK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTMLAppWK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEFC997A1AEAF7C400F958BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEFC997B1AEAF7C400F958BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEFC997D1AEAF7C400F958BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		DEFC99841AEAF7C400F958BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DEFC99861AEAF7C400F958BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DEFC99891AEAF7C400F958BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		DEFC998F1AEAF7C400F958BB /* HTMLAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTMLAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEFC998F1AEAF7C400F958BB /* HTMLAppWKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTMLAppWKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEFC99941AEAF7C400F958BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEFC99951AEAF7C400F958BB /* HTMLAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMLAppTests.m; sourceTree = "<group>"; };
 		DEFC999F1AEAF87F00F958BB /* buttonwebsite.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = buttonwebsite.html; sourceTree = "<group>"; };
@@ -74,8 +74,8 @@
 		DEFC99771AEAF7C400F958BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DEFC99761AEAF7C400F958BB /* HTMLApp.app */,
-				DEFC998F1AEAF7C400F958BB /* HTMLAppTests.xctest */,
+				DEFC99761AEAF7C400F958BB /* HTMLAppWK.app */,
+				DEFC998F1AEAF7C400F958BB /* HTMLAppWKTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,9 +125,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DEFC99751AEAF7C400F958BB /* HTMLApp */ = {
+		DEFC99751AEAF7C400F958BB /* HTMLAppWK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DEFC99991AEAF7C400F958BB /* Build configuration list for PBXNativeTarget "HTMLApp" */;
+			buildConfigurationList = DEFC99991AEAF7C400F958BB /* Build configuration list for PBXNativeTarget "HTMLAppWK" */;
 			buildPhases = (
 				DEFC99721AEAF7C400F958BB /* Sources */,
 				DEFC99731AEAF7C400F958BB /* Frameworks */,
@@ -137,14 +137,14 @@
 			);
 			dependencies = (
 			);
-			name = HTMLApp;
+			name = HTMLAppWK;
 			productName = HTMLApp;
-			productReference = DEFC99761AEAF7C400F958BB /* HTMLApp.app */;
+			productReference = DEFC99761AEAF7C400F958BB /* HTMLAppWK.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DEFC998E1AEAF7C400F958BB /* HTMLAppTests */ = {
+		DEFC998E1AEAF7C400F958BB /* HTMLAppWKTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DEFC999C1AEAF7C400F958BB /* Build configuration list for PBXNativeTarget "HTMLAppTests" */;
+			buildConfigurationList = DEFC999C1AEAF7C400F958BB /* Build configuration list for PBXNativeTarget "HTMLAppWKTests" */;
 			buildPhases = (
 				DEFC998B1AEAF7C400F958BB /* Sources */,
 				DEFC998C1AEAF7C400F958BB /* Frameworks */,
@@ -155,9 +155,9 @@
 			dependencies = (
 				DEFC99911AEAF7C400F958BB /* PBXTargetDependency */,
 			);
-			name = HTMLAppTests;
+			name = HTMLAppWKTests;
 			productName = HTMLAppTests;
-			productReference = DEFC998F1AEAF7C400F958BB /* HTMLAppTests.xctest */;
+			productReference = DEFC998F1AEAF7C400F958BB /* HTMLAppWKTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -171,6 +171,7 @@
 				TargetAttributes = {
 					DEFC99751AEAF7C400F958BB = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 5AUH5BXCWL;
 					};
 					DEFC998E1AEAF7C400F958BB = {
 						CreatedOnToolsVersion = 6.3;
@@ -178,7 +179,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DEFC99711AEAF7C400F958BB /* Build configuration list for PBXProject "HTMLApp" */;
+			buildConfigurationList = DEFC99711AEAF7C400F958BB /* Build configuration list for PBXProject "HTMLAppWK" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -191,8 +192,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DEFC99751AEAF7C400F958BB /* HTMLApp */,
-				DEFC998E1AEAF7C400F958BB /* HTMLAppTests */,
+				DEFC99751AEAF7C400F958BB /* HTMLAppWK */,
+				DEFC998E1AEAF7C400F958BB /* HTMLAppWKTests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,7 +243,7 @@
 /* Begin PBXTargetDependency section */
 		DEFC99911AEAF7C400F958BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DEFC99751AEAF7C400F958BB /* HTMLApp */;
+			target = DEFC99751AEAF7C400F958BB /* HTMLAppWK */;
 			targetProxy = DEFC99901AEAF7C400F958BB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -353,9 +354,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HTMLApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HTMLAppWK;
 			};
 			name = Debug;
 		};
@@ -363,9 +366,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HTMLApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HTMLAppWK;
 			};
 			name = Release;
 		};
@@ -383,8 +388,8 @@
 				);
 				INFOPLIST_FILE = HTMLAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTMLApp.app/HTMLApp";
+				PRODUCT_NAME = HTMLAppWKTests;
+				TEST_HOST = "";
 			};
 			name = Debug;
 		};
@@ -398,15 +403,15 @@
 				);
 				INFOPLIST_FILE = HTMLAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTMLApp.app/HTMLApp";
+				PRODUCT_NAME = HTMLAppWKTests;
+				TEST_HOST = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DEFC99711AEAF7C400F958BB /* Build configuration list for PBXProject "HTMLApp" */ = {
+		DEFC99711AEAF7C400F958BB /* Build configuration list for PBXProject "HTMLAppWK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DEFC99971AEAF7C400F958BB /* Debug */,
@@ -415,21 +420,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DEFC99991AEAF7C400F958BB /* Build configuration list for PBXNativeTarget "HTMLApp" */ = {
+		DEFC99991AEAF7C400F958BB /* Build configuration list for PBXNativeTarget "HTMLAppWK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DEFC999A1AEAF7C400F958BB /* Debug */,
 				DEFC999B1AEAF7C400F958BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		DEFC999C1AEAF7C400F958BB /* Build configuration list for PBXNativeTarget "HTMLAppTests" */ = {
+		DEFC999C1AEAF7C400F958BB /* Build configuration list for PBXNativeTarget "HTMLAppWKTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DEFC999D1AEAF7C400F958BB /* Debug */,
 				DEFC999E1AEAF7C400F958BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

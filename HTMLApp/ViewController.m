@@ -26,7 +26,8 @@
     [self.webPage loadHTMLString:[NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"buttonwebsite" ofType:@"html"] encoding:NSUTF8StringEncoding error:nil] baseURL:nil];
     [self.webPage setUIDelegate:self];
     [self.webPage setNavigationDelegate:self];
-    [self.view addSubview:self.button];
+    [self.view bringSubviewToFront:self.button];
+    [self.view bringSubviewToFront:self.label];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -36,14 +37,18 @@
 
 -(void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler {
     if (navigationAction.navigationType == 1) {
-        NSLog(@"Button");
+        UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"UIAlertController" message:@"Alert" preferredStyle:UIAlertControllerStyleAlert];
+        [alertController addAction:[UIAlertAction actionWithTitle:@"OK"
+                                                           style:UIAlertActionStyleCancel
+                                                         handler:nil]];
+        [self presentViewController:alertController animated:YES completion:nil];
         decisionHandler(WKNavigationActionPolicyCancel);
     }
     decisionHandler(WKNavigationActionPolicyAllow);
 }
 
 - (IBAction)button:(id)sender {
-    [self.webPage evaluateJavaScript:@"alert(\"Alert\")" completionHandler:nil];
+    [self.webPage evaluateJavaScript:@"alert(\"Javascript Alert\")" completionHandler:nil];
 }
 
 -(void)webView:(WKWebView *)webView runJavaScriptAlertPanelWithMessage:(NSString *)message initiatedByFrame:(WKFrameInfo *)frame completionHandler:(void (^)())completionHandler {

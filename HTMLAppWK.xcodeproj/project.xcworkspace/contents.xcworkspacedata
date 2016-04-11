@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:HTMLApp.xcodeproj">
+      location = "self:/Users/Wes/Desktop/Turn To Tech/HTMLApp WKWebView/HTMLAppWK.xcodeproj">
    </FileRef>
 </Workspace>

@@ -12,6 +12,7 @@
 @interface ViewController : UIViewController <WKUIDelegate, WKNavigationDelegate>
 
 @property (strong, nonatomic) IBOutlet WKWebView *webPage;
+@property (weak, nonatomic) IBOutlet UILabel *label;
 @property (weak, nonatomic) IBOutlet UIButton *button;
 
 @end

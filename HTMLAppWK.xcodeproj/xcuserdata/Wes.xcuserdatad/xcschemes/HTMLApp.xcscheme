@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DEFC99751AEAF7C400F958BB"
-               BuildableName = "HTMLApp.app"
-               BlueprintName = "HTMLApp"
-               ReferencedContainer = "container:HTMLApp.xcodeproj">
+               BuildableName = "HTMLAppWK.app"
+               BlueprintName = "HTMLAppWK"
+               ReferencedContainer = "container:HTMLAppWK.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DEFC998E1AEAF7C400F958BB"
-               BuildableName = "HTMLAppTests.xctest"
-               BlueprintName = "HTMLAppTests"
-               ReferencedContainer = "container:HTMLApp.xcodeproj">
+               BuildableName = "HTMLAppWKTests.xctest"
+               BlueprintName = "HTMLAppWKTests"
+               ReferencedContainer = "container:HTMLAppWK.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DEFC998E1AEAF7C400F958BB"
-               BuildableName = "HTMLAppTests.xctest"
-               BlueprintName = "HTMLAppTests"
-               ReferencedContainer = "container:HTMLApp.xcodeproj">
+               BuildableName = "HTMLAppWKTests.xctest"
+               BlueprintName = "HTMLAppWKTests"
+               ReferencedContainer = "container:HTMLAppWK.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DEFC99751AEAF7C400F958BB"
-            BuildableName = "HTMLApp.app"
-            BlueprintName = "HTMLApp"
-            ReferencedContainer = "container:HTMLApp.xcodeproj">
+            BuildableName = "HTMLAppWK.app"
+            BlueprintName = "HTMLAppWK"
+            ReferencedContainer = "container:HTMLAppWK.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DEFC99751AEAF7C400F958BB"
-            BuildableName = "HTMLApp.app"
-            BlueprintName = "HTMLApp"
-            ReferencedContainer = "container:HTMLApp.xcodeproj">
+            BuildableName = "HTMLAppWK.app"
+            BlueprintName = "HTMLAppWK"
+            ReferencedContainer = "container:HTMLAppWK.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DEFC99751AEAF7C400F958BB"
-            BuildableName = "HTMLApp.app"
-            BlueprintName = "HTMLApp"
-            ReferencedContainer = "container:HTMLApp.xcodeproj">
+            BuildableName = "HTMLAppWK.app"
+            BlueprintName = "HTMLAppWK"
+            ReferencedContainer = "container:HTMLAppWK.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

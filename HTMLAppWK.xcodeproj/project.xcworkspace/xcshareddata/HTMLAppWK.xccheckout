@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>290B24A6-79FF-4941-B8FE-7A19F12A7556</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HTMLAppWK</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4548D59EF747769E7E76D8983FB44773085092AA</key>
+		<string>https://github.com/weshovanec/Functions-in-different-languages-with-WKWebView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HTMLAppWK.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4548D59EF747769E7E76D8983FB44773085092AA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/weshovanec/Functions-in-different-languages-with-WKWebView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4548D59EF747769E7E76D8983FB44773085092AA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4548D59EF747769E7E76D8983FB44773085092AA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HTMLApp%20WKWebView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
